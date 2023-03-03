@@ -1,0 +1,104 @@
+#main {
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+
+
+form[name=calendar] {
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form[name='calendar'] input {
+    box-sizing: border-box;
+    width: 115px;
+    border: 0px;
+    text-align: center;
+    font-size: 18px;
+
+
+
+    color: rgba(8, 8, 8, 0.637);
+}
+
+form[name='calendar'] select {
+    box-sizing: border-box;
+    width: 115px;
+    border: 0px;
+    text-align: center;
+    font-size: 18px;
+
+
+    color: rgba(8, 8, 8, 0.637);
+    
+}
+
+form[name='calendar'] div
+ {
+    margin: 20px;
+ }
+
+ form[name='calendar'] button {
+    width: 80px;
+    height: 25px;
+
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgba(167, 230, 108, 0.432);
+    border: 0px;
+    border-radius: 2px;
+
+    font-size: 18px;
+
+
+
+ }
+
+
+ form[name='calendar'] input:focus {
+    border: 0px;
+    border-color:  rgba(8, 8, 8, 0.637);
+}
+
+form[name='calendar'] button:hover {
+    background-color:  rgba(167, 230, 108, 0.582);
+}
+
+
+#view_calendar_container {
+    text-align: center;
+    width: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#view_calendar {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+#view_calendar th {
+    background-color: rgba(167, 230, 108, 0.432);
+    color: rgba(8, 8, 8, 0.432);
+}
+
