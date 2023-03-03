@@ -126,8 +126,7 @@ async function handleFormSubmit(event) {
     // This takes the API URL from the form's `action` attribute.
     // ! const url = form.action; - we need to use this address, 
     // ! but something wrong with server and it doesn't allow to make a POST request, so we use the link bellow 
-    const url = form.action;
-    // const url = 'https://httpbin.org/post';
+    const url = 'https://httpbin.org/post';
     try {
         /* This class takes all the fields in the form and
         makes their available through a FormData instance. */
